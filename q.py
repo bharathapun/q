@@ -1,6 +1,4 @@
-def main():
-   c=int(input(""))
-   d=int(input(""))
-   print(c**d)
-if __name__ == '__main__':
-    main()
+import math
+y=int(input("Enter a number: "))
+z=int(input("Enter the power: "))
+print (round(math.pow(y, z)))
